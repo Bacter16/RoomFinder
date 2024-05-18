@@ -1,0 +1,76 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Compiled Output ###
+*.class
+*.war
+*.ear
+*.jar
+
+### IDE ###
+/.idea
+/.vscode
+*.iml
+*.ipr
+*.iws
+
+### Build Tools ###
+/target
+/build
+/.gradle
+/.mvn
+
+### Dependency Management ###
+/.m2
+
+### Logs ###
+/logs
+*.log
+
+### Operating System ###
+.DS_Store
+Thumbs.db
+
+### Miscellaneous ###
+/.cache
+/.sass-cache
+/cypress/videos
+/cypress/screenshots
+/node_modules
+/dist
+/out
