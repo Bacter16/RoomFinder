@@ -6,8 +6,7 @@ import { useLoadScript } from '@react-google-maps/api';
 export default function App() {
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBO80gzLVSQFsM5NBYwzl4CwvSxzsvOatQ",
-    //stiu ca nu e bine sa punem aici dar in caz ca doriti sa-l rulati local, puteti folosi cheia mea 
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
     libraries: ['places'],
   });
 
